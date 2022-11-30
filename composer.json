@@ -1,0 +1,27 @@
+{
+    "name": "shakhawat/phpmvc",
+    "description": "A simple PHP MVC Framework Project",
+    "type": "library",
+    "license": "MIT",
+    
+    "authors": [
+        {
+            "name": "Shakhawat Hossen",
+            "email": "shsourov2000@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "pecee/simple-router": "dev-master",
+        "vlucas/phpdotenv": "5.5.x-dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "app/Base/functions.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
